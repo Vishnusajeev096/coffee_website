@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Alfa+Slab+One&family=Black+Ops+One&family=Lobster&display=swap=Fredericka+the+Great&family=Great+Vibes&family=Shrikhand&family=Sonsie+One&display=swap');
+body{
+
+    background: linear-gradient(to left,#1a1a1a 35%,#0d0d0d 60%);
+    margin: 0;
+}
+#search{
+    margin-top: 15px;
+    margin-left: 1400px;
+}
+#bell{
+    margin-left: 15px;
+}
+#profile{
+    margin-left: 15px;
+}
+
+.website{
+    background: linear-gradient(to left,  #262626 35%, #000000 80%);
+    width:100%;
+    height: 100%;
+}
+.maintxt{
+    font-family: 'Black Ops One', cursive;
+    font-size: 1000%;
+    text-align: center;
+    font-weight: normal;
+    font-variant: petite-caps;
+}
+
+.scndtxt{
+    font-family: 'Great Vibes', cursive;
+    font-size: 200%;
+    text-align: center;
+}
+.box1{
+    background: linear-gradient(to left,#1a1a1a 35%,#0d0d0d 60%);
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    color: rgb(211, 211, 211);
+    align-items: center;
+    justify-content: space-evenly;
+    position:sticky;
+    top: 0px;
+    /* font-family: 'Fredericka the Great', cursive; */
+    font-family: 'Anonymous Pro', monospace;
+    font-size: larger;
+    
+}
+.txt1{
+    font-family:'Courier New', Courier, monospace;
+}
+.cnt1{
+    height: 600px;
+    background: linear-gradient(to right, #262626 35%, #000000 80%); 
+    background: url(./image/coffee-shop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: chocolate;
+}
+.txt2{
+    font-family: 'Alfa Slab One', cursive;
+    font-variant: petite-caps;
+    font-weight: normal;
+}
+.hotcf{
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+}
+.cnt2{
+    height: 600px;
+    background: linear-gradient(to left,#1a1a1a 35%,#0d0d0d 80%); 
+    height: 600px;
+}
+.btn1{
+    background-color:goldenrod;
+    width: 240px;
+    height: 30px;
+}
+::placeholder{
+    color: black;
+}
+#name{
+    width: 235px;
+    height: 25px;
+    background-color: darkgrey;
+    color: aliceblue;
+}
+#email{
+    width: 235px;
+    height: 25px;
+    color: aliceblue;
+    background-color: darkgray;
+}
+#fb{
+    color: aliceblue;
+    background-color: darkgray;
+}
+.cnt3{
+    height: 600px;
+    background: linear-gradient(to right, #262626 35%, #000000 80%); 
+}
+
+
+#cf2{
+    height:550px;
+    width: 600px;
+    margin-top: 25px;
+    margin-left: 80px;
+    
+}
+#cfmkr{
+    width: 600px;
+    height: 550px;
+    margin-top: 25px;
+    margin-left: 125px;
+
+}
+.cnt4{
+    height: 400px;
+    background: linear-gradient(to left,#1a1a1a 35%,#0d0d0d 80%); 
+    background: url(./image/About-Us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.abtus{
+    background-color: transparent;
+    color:aliceblue ;
+    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    font-weight: normal;
+}
+.cnt5{
+    height: 400px;
+    background: linear-gradient(to left, #333333 35%, #4d4d4d 60%); 
+}
+
+
