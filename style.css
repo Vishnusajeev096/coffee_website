@@ -1,32 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&family=Alfa+Slab+One&family=Black+Ops+One&family=Lobster&display=swap=Fredericka+the+Great&family=Great+Vibes&family=Shrikhand&family=Sonsie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Caveat&family=Teko&display=swap');
 body{
 
     background: linear-gradient(to left,#1a1a1a 35%,#0d0d0d 60%);
     margin: 0;
 }
-#search{
-    margin-top: 15px;
-    margin-left: 1400px;
+.cfname{
+    font-size: xx-large;
+    font-family: 'Caveat', cursive;
+/* font-family: 'Gajraj One', cursive; */
+margin-left: 20px;
 }
+.logo1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#search{
+    margin-top: 20px;
+    margin-left: 1500px;
+    transition: 1s;
+
+}
+#search:hover{
+    color: rgba(165, 83, 24, 0.781);
+    transform: scale(2);
+}
+
 #bell{
-    margin-left: 15px;
+    margin-top: 20px;
+    transition: 1s;
+}
+#bell:hover{
+    color: rgba(165, 83, 24, 0.781) ;
+    transform: scale(2);
 }
 #profile{
-    margin-left: 15px;
+    margin-top: 20px;
+    margin-right: 80px;
+    transition: 1s;
+}
+#profile:hover{
+    color:  rgba(165, 83, 24, 0.781);
+    transform: scale(2);
 }
 
 .website{
-    background: linear-gradient(to left,  #262626 35%, #000000 80%);
+    background: linear-gradient(to left,  #262626df 35%, #000000 80%);
     width:100%;
     height: 100%;
 }
 .maintxt{
     font-family: 'Black Ops One', cursive;
+    color: chocolate;
     font-size: 1000%;
     text-align: center;
     font-weight: normal;
     font-variant: petite-caps;
 }
+
 
 .scndtxt{
     font-family: 'Great Vibes', cursive;
@@ -50,6 +82,10 @@ body{
     font-family: 'Anonymous Pro', monospace;
     font-size: larger;
     
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 .txt1{
     font-family:'Courier New', Courier, monospace;
@@ -137,6 +173,13 @@ body{
     width: 200px;
     height: 40px;
     font-weight: normal;
+    transition: 1s;
+    border-radius: 10px;
+}
+.abtus:hover{
+    background-color:rgba(86, 44, 15, 0.715);
+    color: aliceblue;
+    transform: scale(1.5);
 }
 .cnt5{
     height: 400px;
